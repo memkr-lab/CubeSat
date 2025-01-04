@@ -46,6 +46,9 @@ The CubeSat project is a compact satellite prototype designed for educational an
 ### Mechanical Design
 The CubeSat prototype features a lightweight and robust structure designed to house all components securely while maintaining accessibility for testing and upgrades.
 
+![](1.jpeg)
+![](2.jpeg)
+
 #### Placeholder for Images:
 - **Structure Image 1**
 - **Structure Image 2**
@@ -54,8 +57,8 @@ The CubeSat prototype features a lightweight and robust structure designed to ho
 Custom-designed PCBs streamline the integration of electronic components, ensuring reliability and minimizing loose connections.
 
 #### Placeholder for Images:
-- **PCB Image 1**
-- **PCB Image 2**
+![]()
+![]()
 
 ---
 
@@ -67,16 +70,10 @@ The CubeSat performs the following key operations:
 4. Real-time visualization using the RGB LED strip.
 
 #### Placeholder for Videos:
-- **Working Video 1**
-- **Working Video 2**
+![](01.mp4)
+![](02.mp4)
 
 ---
 
 ## Conclusion
-The CubeSat prototype demonstrates the integration of advanced microelectronics and wireless communication technologies in a compact form factor. This project serves as a foundation for further exploration and development of small-scale satellite systems.
-
----
-
-## Notes
-Please ensure to replace the placeholders with actual images and videos for a comprehensive and visually engaging README.
-
+While the CubeSat prototype achieves significant milestones in integrating sensors, microcontrollers, and communication modules, it is important to note that the camera module is not yet operational. Its integration remains an open possibility, hinging on future design and testing phases. The uncertainty surrounding this feature leaves room for potential advancements, ensuring that the CubeSat’s capabilities remain adaptable to emerging technologies and project goals. Though not confirmed, the inclusion of the camera is an exciting prospect for future iterations of the CubeSat.
