@@ -1,10 +1,11 @@
-# CubeSat
-A Robust Cube Satellite
-
-# CubeSat Project README
+# Project CubeSat
 
 ## Introduction
-The CubeSat project is a compact satellite prototype designed for educational and experimental purposes. It integrates microcontrollers, sensors, and communication modules to simulate real-world satellite functionalities. This document provides an overview of the components, structure, and operation of the CubeSat, including placeholder spaces for images and videos to enhance understanding.
+This CubeSat Project is a compact satellite prototype designed for educational and experimental purposes. It integrates microcontrollers, sensors, and communication modules to simulate real-world satellite functionalities. This Project provides an overview of the components, structure, and operation of the CubeSat, including images and videos to enhance understanding.
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/memkr-lab/CubeSat/refs/heads/main/All%20Images/Photos%26Videos/A1.jpeg" width="600" height="800" />
+</p>
 
 ---
 
@@ -43,22 +44,46 @@ The CubeSat project is a compact satellite prototype designed for educational an
 
 ## Prototype Structure
 
-### Mechanical Design
+### Structure Design
 The CubeSat prototype features a lightweight and robust structure designed to house all components securely while maintaining accessibility for testing and upgrades.
 
-![](1.jpeg)
-![](2.jpeg)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/memkr-lab/CubeSat/cd9bc366140790f9ef8681237d23812033c4454b/All%20Images/Prototype%20Creation/1.jpeg" width="300" height="400" />
+  <img src="https://raw.githubusercontent.com/memkr-lab/CubeSat/refs/heads/main/All%20Images/Prototype%20Creation/2.jpeg" width="300" height="400" />
+</p>
 
-#### Placeholder for Images:
-- **Structure Image 1**
-- **Structure Image 2**
+#### Outer Acrylic Frame
+The outer acrylic frame serves as a protective layer, safeguarding internal components against minor impacts and environmental factors. It also provides aesthetic appeal and ensures modularity for component access.
 
-### PCB Layout
-Custom-designed PCBs streamline the integration of electronic components, ensuring reliability and minimizing loose connections.
+<p align="center">
+  <img src="https://raw.githubusercontent.com/memkr-lab/CubeSat/refs/heads/main/All%20Images/Prototype%20Creation/3.jpeg" width="300" height="400" />
+  <img src="https://raw.githubusercontent.com/memkr-lab/CubeSat/refs/heads/main/All%20Images/Prototype%20Creation/4.jpeg" width="300" height="400" />
+</p>
 
-#### Placeholder for Images:
-![]()
-![]()
+#### PCB Layout
+The printed circuit boards (PCBs) integrate all electronic components, ensuring reliable electrical connections and reducing loose wiring. Custom layouts are used for efficiency and compactness.
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/memkr-lab/CubeSat/refs/heads/main/All%20Images/Prototype%20Creation/5.jpeg" width="300" height="300" />
+  <img src="https://raw.githubusercontent.com/memkr-lab/CubeSat/refs/heads/main/All%20Images/Prototype%20Creation/6.jpeg" width="300" height="300" />
+</p>
+
+#### Inner Structure
+The inner structure supports the arrangement of sensors, microcontrollers, and the camera module. It ensures that each component remains securely in place during operation.
+
+<p align="center">
+    <img src="https://raw.githubusercontent.com/memkr-lab/CubeSat/refs/heads/main/All%20Images/Prototype%20Creation/7.jpeg" width="300" height="400" />
+    <img src="https://raw.githubusercontent.com/memkr-lab/CubeSat/refs/heads/main/All%20Images/Prototype%20Creation/8.jpeg" width="300" height="400" />
+  <img src="https://raw.githubusercontent.com/memkr-lab/CubeSat/refs/heads/main/All%20Images/Prototype%20Creation/9.jpeg" width="300" height="400" />
+</p>
+
+#### Final Build
+The final build represents the fully integrated CubeSat prototype, combining the structure, electronics, and aesthetic elements into a cohesive unit.
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/memkr-lab/CubeSat/refs/heads/main/All%20Images/Final%20Prototype/1(1).jpeg" width="300" height="400" />
+  <img src="https://raw.githubusercontent.com/memkr-lab/CubeSat/refs/heads/main/All%20Images/Final%20Prototype/2(2).jpeg" width="400" height="400" />
+</p>
 
 ---
 
@@ -69,9 +94,7 @@ The CubeSat performs the following key operations:
 3. Wireless transmission of sensor and image data to a ground station.
 4. Real-time visualization using the RGB LED strip.
 
-#### Placeholder for Videos:
-![](01.mp4)
-![](02.mp4)
+https://github.com/user-attachments/assets/92fa8aad-67d8-41a4-8ed6-5fe9906413f0
 
 ---
 
