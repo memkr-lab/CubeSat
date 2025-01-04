@@ -1,0 +1,81 @@
+ESP32 Pin Mapping
+1. NRF24L01 (CubeSat Data Transmitter)
+	•	CE → GPIO 26
+	•	CSN → GPIO 27
+	•	MOSI → GPIO 23
+	•	MISO → GPIO 19
+	•	SCK → GPIO 18
+	•	VCC → 3.3V
+	•	GND → GND
+
+2. NRF24L01 (Camera Data Transmitter)
+	•	CE → GPIO 32
+	•	CSN → GPIO 33
+	•	MOSI → GPIO 23 (shared with 1st NRF)
+	•	MISO → GPIO 19 (shared with 1st NRF)
+	•	SCK → GPIO 18 (shared with 1st NRF)
+	•	VCC → 3.3V
+	•	GND → GND
+
+3. Neo-6M GPS Module
+	•	TX → GPIO 16
+	•	RX → GPIO 17
+	•	VCC → 3.3V
+	•	GND → GND
+
+4. OV7670 Camera Module
+	•	SDA → GPIO 21
+	•	SCL → GPIO 22
+	•	XCLK → GPIO 25
+	•	D0-D7 → GPIO 4, GPIO 5, GPIO 12, GPIO 13, GPIO 14, GPIO 15, GPIO 2, GPIO 0
+	•	VSYNC → GPIO 36
+	•	HREF → GPIO 39
+	•	PCLK → GPIO 34
+
+5. MPU6050 (Accelerometer & Gyroscope)
+	•	SCL → GPIO 22 (shared with BMP280 & HMC5883L)
+	•	SDA → GPIO 21 (shared with BMP280 & HMC5883L)
+	•	VCC → 3.3V
+	•	GND → GND
+
+6. BMP280 (Pressure & Temperature Sensor)
+	•	SCL → GPIO 22 (shared with MPU6050 & HMC5883L)
+	•	SDA → GPIO 21 (shared with MPU6050 & HMC5883L)
+	•	VCC → 3.3V
+	•	GND → GND
+
+7. HMC5883L (Magnetometer)
+	•	SCL → GPIO 22 (shared with MPU6050 & BMP280)
+	•	SDA → GPIO 21 (shared with MPU6050 & BMP280)
+	•	VCC → 3.3V
+	•	GND → GND
+
+8. DHT22 (Temperature & Humidity Sensor)
+	•	DATA → GPIO 14
+	•	VCC → 3.3V
+	•	GND → GND
+
+ESP32 Pinout Visualization:
+	•	GPIO 0: D0 (OV7670 Camera)
+	•	GPIO 2: D7 (OV7670 Camera)
+	•	GPIO 4: D1 (OV7670 Camera)
+	•	GPIO 5: D2 (OV7670 Camera)
+	•	GPIO 12: D3 (OV7670 Camera)
+	•	GPIO 13: D4 (OV7670 Camera)
+	•	GPIO 14: DHT22 (Data Pin)
+	•	GPIO 15: D5 (OV7670 Camera)
+	•	GPIO 16: GPS TX
+	•	GPIO 17: GPS RX
+	•	GPIO 18: SCK (Shared between both NRF24L01 modules)
+	•	GPIO 19: MISO (Shared between both NRF24L01 modules)
+	•	GPIO 21: SDA (Shared between MPU6050, BMP280, HMC5883L, OV7670)
+	•	GPIO 22: SCL (Shared between MPU6050, BMP280, HMC5883L, OV7670)
+	•	GPIO 23: MOSI (Shared between both NRF24L01 modules)
+	•	GPIO 25: XCLK (OV7670 Camera)
+	•	GPIO 26: CE (NRF24L01 - CubeSat Transmitter)
+	•	GPIO 27: CSN (NRF24L01 - CubeSat Transmitter)
+	•	GPIO 32: CE (NRF24L01 - Camera Data Transmitter)
+	•	GPIO 33: CSN (NRF24L01 - Camera Data Transmitter)
+	•	GPIO 34: PCLK (OV7670 Camera)
+	•	GPIO 36: VSYNC (OV7670 Camera)
+	•	GPIO 39: HREF (OV7670 Camera)
